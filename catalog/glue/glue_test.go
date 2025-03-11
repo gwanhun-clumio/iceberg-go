@@ -23,12 +23,12 @@ import (
 	"os"
 	"testing"
 
-	"github.com/apache/iceberg-go/catalog"
-	"github.com/apache/iceberg-go/table"
 	"github.com/aws/aws-sdk-go-v2/aws"
 	"github.com/aws/aws-sdk-go-v2/config"
 	"github.com/aws/aws-sdk-go-v2/service/glue"
 	"github.com/aws/aws-sdk-go-v2/service/glue/types"
+	"github.com/gwanhun-clumio/iceberg-go/catalog"
+	"github.com/gwanhun-clumio/iceberg-go/table"
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 )

@@ -22,7 +22,7 @@ import (
 	"testing"
 
 	"github.com/apache/arrow-go/v18/arrow/decimal"
-	"github.com/apache/iceberg-go"
+	"github.com/gwanhun-clumio/iceberg-go"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

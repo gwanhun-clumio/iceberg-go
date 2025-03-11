@@ -23,7 +23,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/apache/iceberg-go"
+	"github.com/gwanhun-clumio/iceberg-go"
 )
 
 type MappedField struct {

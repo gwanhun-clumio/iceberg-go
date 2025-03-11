@@ -23,10 +23,10 @@ import (
 	"context"
 	"testing"
 
-	"github.com/apache/iceberg-go"
-	"github.com/apache/iceberg-go/catalog"
-	"github.com/apache/iceberg-go/catalog/rest"
-	"github.com/apache/iceberg-go/io"
+	"github.com/gwanhun-clumio/iceberg-go"
+	"github.com/gwanhun-clumio/iceberg-go/catalog"
+	"github.com/gwanhun-clumio/iceberg-go/catalog/rest"
+	"github.com/gwanhun-clumio/iceberg-go/io"
 	"github.com/stretchr/testify/suite"
 )
 

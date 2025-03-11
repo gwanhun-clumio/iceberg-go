@@ -20,7 +20,7 @@ package iceberg
 import (
 	"fmt"
 
-	"github.com/apache/iceberg-go/internal"
+	"github.com/gwanhun-clumio/iceberg-go/internal"
 	"github.com/hamba/avro/v2"
 )
 

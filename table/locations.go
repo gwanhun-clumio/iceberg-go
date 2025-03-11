@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"net/url"
 
-	"github.com/apache/iceberg-go"
 	"github.com/google/uuid"
+	"github.com/gwanhun-clumio/iceberg-go"
 )
 
 type LocationProvider interface {

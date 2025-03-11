@@ -25,16 +25,16 @@ import (
 	"strconv"
 	_ "unsafe"
 
-	"github.com/apache/iceberg-go"
-	"github.com/apache/iceberg-go/catalog"
-	"github.com/apache/iceberg-go/io"
-	"github.com/apache/iceberg-go/table"
-	"github.com/apache/iceberg-go/utils"
 	"github.com/aws/aws-sdk-go-v2/aws"
 	"github.com/aws/aws-sdk-go-v2/config"
 	"github.com/aws/aws-sdk-go-v2/credentials"
 	"github.com/aws/aws-sdk-go-v2/service/glue"
 	"github.com/aws/aws-sdk-go-v2/service/glue/types"
+	"github.com/gwanhun-clumio/iceberg-go"
+	"github.com/gwanhun-clumio/iceberg-go/catalog"
+	"github.com/gwanhun-clumio/iceberg-go/io"
+	"github.com/gwanhun-clumio/iceberg-go/table"
+	"github.com/gwanhun-clumio/iceberg-go/utils"
 )
 
 const (
@@ -425,7 +425,7 @@ func (c *Catalog) LoadNamespaceProperties(ctx context.Context, namespace table.I
 // avoid circular dependency while still avoiding having to export the getUpdatedPropsAndUpdateSummary function
 // so that we can re-use it in the catalog implementations without duplicating the code.
 
-//go:linkname getUpdatedPropsAndUpdateSummary github.com/apache/iceberg-go/catalog.getUpdatedPropsAndUpdateSummary
+//go:linkname getUpdatedPropsAndUpdateSummary github.com/gwanhun-clumio/iceberg-go/catalog.getUpdatedPropsAndUpdateSummary
 func getUpdatedPropsAndUpdateSummary(currentProps iceberg.Properties, removals []string, updates iceberg.Properties) (iceberg.Properties, catalog.PropertiesUpdateSummary, error)
 
 // UpdateNamespaceProperties updates the properties of an Iceberg namespace in the Glue catalog.

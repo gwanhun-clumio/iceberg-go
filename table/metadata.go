@@ -28,7 +28,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/apache/iceberg-go"
+	"github.com/gwanhun-clumio/iceberg-go"
 
 	"github.com/google/uuid"
 )

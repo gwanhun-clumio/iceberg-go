@@ -23,12 +23,13 @@ import (
 	"context"
 	"testing"
 
-	"github.com/apache/iceberg-go"
-	"github.com/apache/iceberg-go/catalog"
-	sqlcat "github.com/apache/iceberg-go/catalog/sql"
-	"github.com/apache/iceberg-go/io"
+	"github.com/gwanhun-clumio/iceberg-go/catalog"
+	sqlcat "github.com/gwanhun-clumio/iceberg-go/catalog/sql"
+	"github.com/gwanhun-clumio/iceberg-go/io"
 	"github.com/stretchr/testify/require"
 	"github.com/uptrace/bun/driver/sqliteshim"
+
+	"github.com/gwanhun-clumio/iceberg-go"
 )
 
 func TestMinioWarehouse(t *testing.T) {

@@ -22,8 +22,8 @@ import (
 	"runtime"
 	"slices"
 
-	"github.com/apache/iceberg-go"
-	"github.com/apache/iceberg-go/io"
+	"github.com/gwanhun-clumio/iceberg-go"
+	"github.com/gwanhun-clumio/iceberg-go/io"
 )
 
 type Identifier = []string

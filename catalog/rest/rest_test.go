@@ -29,10 +29,10 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/apache/iceberg-go"
-	"github.com/apache/iceberg-go/catalog"
-	"github.com/apache/iceberg-go/catalog/rest"
-	"github.com/apache/iceberg-go/table"
+	"github.com/gwanhun-clumio/iceberg-go"
+	"github.com/gwanhun-clumio/iceberg-go/catalog"
+	"github.com/gwanhun-clumio/iceberg-go/catalog/rest"
+	"github.com/gwanhun-clumio/iceberg-go/table"
 	"github.com/stretchr/testify/suite"
 )
 

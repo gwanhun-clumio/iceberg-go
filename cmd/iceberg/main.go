@@ -25,12 +25,12 @@ import (
 	"os"
 	"strings"
 
-	"github.com/apache/iceberg-go"
-	"github.com/apache/iceberg-go/catalog"
-	"github.com/apache/iceberg-go/catalog/glue"
-	"github.com/apache/iceberg-go/catalog/rest"
-	"github.com/apache/iceberg-go/config"
-	"github.com/apache/iceberg-go/table"
+	"github.com/gwanhun-clumio/iceberg-go"
+	"github.com/gwanhun-clumio/iceberg-go/catalog"
+	"github.com/gwanhun-clumio/iceberg-go/catalog/glue"
+	"github.com/gwanhun-clumio/iceberg-go/catalog/rest"
+	"github.com/gwanhun-clumio/iceberg-go/config"
+	"github.com/gwanhun-clumio/iceberg-go/table"
 
 	awsconfig "github.com/aws/aws-sdk-go-v2/config"
 	"github.com/docopt/docopt-go"

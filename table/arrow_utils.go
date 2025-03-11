@@ -28,7 +28,7 @@ import (
 	"github.com/apache/arrow-go/v18/arrow/compute"
 	"github.com/apache/arrow-go/v18/arrow/extensions"
 	"github.com/apache/arrow-go/v18/arrow/memory"
-	"github.com/apache/iceberg-go"
+	"github.com/gwanhun-clumio/iceberg-go"
 )
 
 // constants to look for as Keys in Arrow field metadata

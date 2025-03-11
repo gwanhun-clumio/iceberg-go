@@ -31,8 +31,8 @@ import (
 	"github.com/apache/arrow-go/v18/parquet/file"
 	"github.com/apache/arrow-go/v18/parquet/metadata"
 	"github.com/apache/arrow-go/v18/parquet/pqarrow"
-	"github.com/apache/iceberg-go"
-	iceio "github.com/apache/iceberg-go/io"
+	"github.com/gwanhun-clumio/iceberg-go"
+	iceio "github.com/gwanhun-clumio/iceberg-go/io"
 )
 
 type ParquetFileSource struct {

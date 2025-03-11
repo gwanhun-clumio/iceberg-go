@@ -33,11 +33,11 @@ import (
 	"github.com/apache/arrow-go/v18/arrow/compute"
 	"github.com/apache/arrow-go/v18/arrow/extensions"
 	"github.com/apache/arrow-go/v18/arrow/memory"
-	"github.com/apache/iceberg-go"
-	"github.com/apache/iceberg-go/catalog"
-	"github.com/apache/iceberg-go/catalog/rest"
-	"github.com/apache/iceberg-go/io"
-	"github.com/apache/iceberg-go/table"
+	"github.com/gwanhun-clumio/iceberg-go"
+	"github.com/gwanhun-clumio/iceberg-go/catalog"
+	"github.com/gwanhun-clumio/iceberg-go/catalog/rest"
+	"github.com/gwanhun-clumio/iceberg-go/io"
+	"github.com/gwanhun-clumio/iceberg-go/table"
 	"github.com/stretchr/testify/suite"
 )
 

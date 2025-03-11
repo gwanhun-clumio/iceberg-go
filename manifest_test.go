@@ -22,7 +22,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/apache/iceberg-go/internal"
+	"github.com/gwanhun-clumio/iceberg-go/internal"
 	"github.com/stretchr/testify/suite"
 )
 

@@ -23,10 +23,10 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/apache/iceberg-go"
-	"github.com/apache/iceberg-go/io"
-	"github.com/apache/iceberg-go/table"
 	"github.com/google/uuid"
+	"github.com/gwanhun-clumio/iceberg-go"
+	"github.com/gwanhun-clumio/iceberg-go/io"
+	"github.com/gwanhun-clumio/iceberg-go/table"
 )
 
 type CreateTableCfg struct {
